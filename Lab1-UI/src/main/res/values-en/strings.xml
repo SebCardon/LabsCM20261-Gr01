@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Labs20261-Gr01</string>
+
+    <!-- Screen: Personal Information -->
+    <string name="titulo_info_personal">Personal Information</string>
+    <string name="label_nombres">First Names *</string>
+    <string name="label_apellidos">Last Names *</string>
+    <string name="label_sexo">Gender:</string>
+    <string name="opcion_hombre">Male</string>
+    <string name="opcion_mujer">Female</string>
+    <string name="label_fecha_nacimiento">Birth Date:</string>
+    <string name="sin_seleccionar">Not selected</string>
+    <string name="btn_cambiar">Change</string>
+    <string name="label_escolaridad">Education level</string>
+    <string name="btn_siguiente">Next</string>
+    <string name="cancelar">Cancel</string>
+    <string name="no_especificado">Not specified</string>
+
+    <!-- Validation messages -->
+    <string name="error_nombres">Please enter first names</string>
+    <string name="error_apellidos">Please enter last names</string>
+
+    <!-- Education level options -->
+    <string-array name="opciones_escolaridad">
+        <item>Primary</item>
+        <item>Secondary</item>
+        <item>Technical</item>
+        <item>University</item>
+        <item>Postgraduate</item>
+    </string-array>
+
+    <!-- ── Screen: Contact Information ── -->
+    <string name="titulo_info_contacto">Contact Information</string>
+    <string name="label_telefono">Phone *</string>
+    <string name="label_email">Email *</string>
+    <string name="label_pais">Country *</string>
+    <string name="label_ciudad">City</string>
+    <string name="label_direccion">Address</string>
+    <string name="datos_guardados">Data saved successfully</string>
+    <string name="error_telefono">Please enter a phone number</string>
+    <string name="error_email">Please enter an email</string>
+    <string name="error_email_invalido">The email entered is not valid</string>
+    <string name="error_pais">Please select a country</string>
+
+    <string-array name="paises_latinoamerica">
+        <item>Argentina</item>
+        <item>Bolivia</item>
+        <item>Brazil</item>
+        <item>Chile</item>
+        <item>Colombia</item>
+        <item>Costa Rica</item>
+        <item>Cuba</item>
+        <item>Ecuador</item>
+        <item>El Salvador</item>
+        <item>Guatemala</item>
+        <item>Honduras</item>
+        <item>Mexico</item>
+        <item>Nicaragua</item>
+        <item>Panama</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Puerto Rico</item>
+        <item>Dominican Republic</item>
+        <item>Uruguay</item>
+        <item>Venezuela</item>
+    </string-array>
+
+    <string-array name="ciudades_colombia">
+        <item>Medellín</item>
+        <item>Bogotá</item>
+        <item>Cali</item>
+        <item>Barranquilla</item>
+        <item>Cartagena</item>
+        <item>Bucaramanga</item>
+        <item>Pereira</item>
+        <item>Manizales</item>
+        <item>Santa Marta</item>
+        <item>Cúcuta</item>
+        <item>Ibagué</item>
+        <item>Pasto</item>
+        <item>Montería</item>
+        <item>Villavicencio</item>
+        <item>Armenia</item>
+        <item>Sincelejo</item>
+        <item>Popayán</item>
+        <item>Valledupar</item>
+        <item>Neiva</item>
+        <item>Tunja</item>
+    </string-array>
+</resources>

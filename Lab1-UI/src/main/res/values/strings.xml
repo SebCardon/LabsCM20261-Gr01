@@ -1,3 +1,90 @@
 <resources>
     <string name="app_name">Labs20261-Gr01</string>
+
+    <!-- Pantalla: Información Personal -->
+    <string name="titulo_info_personal">Información Personal</string>
+    <string name="label_nombres">Nombres *</string>
+    <string name="label_apellidos">Apellidos *</string>
+    <string name="label_sexo">Sexo:</string>
+    <string name="opcion_hombre">Hombre</string>
+    <string name="opcion_mujer">Mujer</string>
+    <string name="label_fecha_nacimiento">Fecha de Nacimiento:</string>
+    <string name="sin_seleccionar">Sin seleccionar</string>
+    <string name="btn_cambiar">Cambiar</string>
+    <string name="label_escolaridad">Grado de escolaridad</string>
+    <string name="btn_siguiente">Siguiente</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="no_especificado">No especificado</string>
+
+    <!-- Mensajes de validación -->
+    <string name="error_nombres">Debe ingresar nombres</string>
+    <string name="error_apellidos">Debe ingresar apellidos</string>
+
+    <!-- Opciones de escolaridad -->
+    <string-array name="opciones_escolaridad">
+        <item>Primaria</item>
+        <item>Secundaria</item>
+        <item>Técnico</item>
+        <item>Universitario</item>
+        <item>Postgrado</item>
+    </string-array>
+
+    <!-- ── Pantalla: Información de Contacto ── -->
+    <string name="titulo_info_contacto">Información de Contacto</string>
+    <string name="label_telefono">Teléfono *</string>
+    <string name="label_email">Email *</string>
+    <string name="label_pais">País *</string>
+    <string name="label_ciudad">Ciudad</string>
+    <string name="label_direccion">Dirección</string>
+    <string name="datos_guardados">Datos guardados correctamente</string>
+    <string name="error_telefono">Debe ingresar un teléfono</string>
+    <string name="error_email">Debe ingresar un email</string>
+    <string name="error_email_invalido">El email ingresado no es válido</string>
+    <string name="error_pais">Debe seleccionar un país</string>
+
+    <string-array name="paises_latinoamerica">
+        <item>Argentina</item>
+        <item>Bolivia</item>
+        <item>Brasil</item>
+        <item>Chile</item>
+        <item>Colombia</item>
+        <item>Costa Rica</item>
+        <item>Cuba</item>
+        <item>Ecuador</item>
+        <item>El Salvador</item>
+        <item>Guatemala</item>
+        <item>Honduras</item>
+        <item>México</item>
+        <item>Nicaragua</item>
+        <item>Panamá</item>
+        <item>Paraguay</item>
+        <item>Perú</item>
+        <item>Puerto Rico</item>
+        <item>República Dominicana</item>
+        <item>Uruguay</item>
+        <item>Venezuela</item>
+    </string-array>
+
+    <string-array name="ciudades_colombia">
+        <item>Medellín</item>
+        <item>Bogotá</item>
+        <item>Cali</item>
+        <item>Barranquilla</item>
+        <item>Cartagena</item>
+        <item>Bucaramanga</item>
+        <item>Pereira</item>
+        <item>Manizales</item>
+        <item>Santa Marta</item>
+        <item>Cúcuta</item>
+        <item>Ibagué</item>
+        <item>Pasto</item>
+        <item>Montería</item>
+        <item>Villavicencio</item>
+        <item>Armenia</item>
+        <item>Sincelejo</item>
+        <item>Popayán</item>
+        <item>Valledupar</item>
+        <item>Neiva</item>
+        <item>Tunja</item>
+    </string-array>
 </resources>
