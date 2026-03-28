@@ -12,7 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import co.edu.udea.compumovil.gr01_20261.labs20261_gr01.lab1.ui.theme.Labs20261Gr01Theme
-import android.content.Intent
+import android.content.Intent   
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {

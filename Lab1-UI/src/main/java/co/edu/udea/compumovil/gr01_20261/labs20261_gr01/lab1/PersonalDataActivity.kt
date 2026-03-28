@@ -80,6 +80,13 @@ class PersonalDataActivity : AppCompatActivity() {
 
             // Ir a la siguiente activity
             val intent = Intent(this, ContactDataActivity::class.java)
+
+            intent.putExtra("nombres", nombres)
+            intent.putExtra("apellidos", apellidos)
+            intent.putExtra("sexo", sexo)
+            intent.putExtra("fechaNacimiento", fechaNacimiento)
+            intent.putExtra("escolaridad", esc)
+
             startActivity(intent)
         }
     }
